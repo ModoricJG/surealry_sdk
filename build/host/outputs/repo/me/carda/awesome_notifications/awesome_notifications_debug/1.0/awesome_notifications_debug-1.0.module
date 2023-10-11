@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.carda.awesome_notifications",
+    "module": "awesome_notifications_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awesome_notifications_debug-1.0.aar",
+          "url": "awesome_notifications_debug-1.0.aar",
+          "size": 37173,
+          "sha512": "e4965f25dae61e3d2bcd57b4edf4a98ef0529c90eab23796f081a3bff2b29937287d817ea276c986b393f65afae42b689ae759c0035aa7cfd3ecab683afa64eb",
+          "sha256": "ed75a09dd78ff0a985faa2e195ad9a8712a70e206ad84f1944ec53738f6bf1d0",
+          "sha1": "bb2c6a99b36e77d7eaf7092ce3bc55ae9fcb5517",
+          "md5": "7ee6956b6a63e05b689b143a8d23c39b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        },
+        {
+          "group": "me.carda",
+          "module": "AndroidAwnCore",
+          "version": {
+            "requires": "[0.8.0, 0.9.0)"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "awesome_notifications_debug-1.0.aar",
+          "url": "awesome_notifications_debug-1.0.aar",
+          "size": 37173,
+          "sha512": "e4965f25dae61e3d2bcd57b4edf4a98ef0529c90eab23796f081a3bff2b29937287d817ea276c986b393f65afae42b689ae759c0035aa7cfd3ecab683afa64eb",
+          "sha256": "ed75a09dd78ff0a985faa2e195ad9a8712a70e206ad84f1944ec53738f6bf1d0",
+          "sha1": "bb2c6a99b36e77d7eaf7092ce3bc55ae9fcb5517",
+          "md5": "7ee6956b6a63e05b689b143a8d23c39b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.surearly_smart_sdk.host.app-merged_res-51:/drawable_launch_background.xml.flat",
+        "source": "com.example.surearly_smart_sdk.host.app-main-39:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "com.example.surearly_smart_sdk.host.app-merged_res-51:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.surearly_smart_sdk.host.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    }
+]

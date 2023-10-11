@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lib.flutter_blue_plus",
+    "module": "flutter_blue_plus_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_debug-1.0.aar",
+          "url": "flutter_blue_plus_debug-1.0.aar",
+          "size": 39978,
+          "sha512": "de523f4193e7ebaa6a029d35b957b131abc3c3da5a8af3de08dfbb8d8d12945564edba28bff2083bae7322d9cceba4ab79f5cfaf45e14fa10cd49668530d5cfc",
+          "sha256": "c2835e6abb3f6742aa130a4e0dbed26e656ca4c41ff32b598705e57a3c8b4b26",
+          "sha1": "f8315426965df6480a7528a70b171a46436adcdf",
+          "md5": "63ab66e49fcd3c6a6e7d8b350916649a"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-a794cf2681c6c9fe7b260e0e84de96298dc9c18b"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_blue_plus_debug-1.0.aar",
+          "url": "flutter_blue_plus_debug-1.0.aar",
+          "size": 39978,
+          "sha512": "de523f4193e7ebaa6a029d35b957b131abc3c3da5a8af3de08dfbb8d8d12945564edba28bff2083bae7322d9cceba4ab79f5cfaf45e14fa10cd49668530d5cfc",
+          "sha256": "c2835e6abb3f6742aa130a4e0dbed26e656ca4c41ff32b598705e57a3c8b4b26",
+          "sha1": "f8315426965df6480a7528a70b171a46436adcdf",
+          "md5": "63ab66e49fcd3c6a6e7d8b350916649a"
+        }
+      ]
+    }
+  ]
+}
